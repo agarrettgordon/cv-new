@@ -1,0 +1,158 @@
+/*** Tags ***/
+body {
+    background-color: #d4f3ef;
+    font-family: 'Merriweather', serif;
+    margin: 0;
+    text-align: center;
+}
+
+a {
+    color: #0f524c;
+}
+
+a:hover {
+    color: #eaf6f6;
+}
+
+h1 {
+    color: #63b7af;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem;
+    margin: 50px auto 0 auto;
+}
+
+h2 {
+    color: #63b7af;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    font-weight: normal;
+}
+
+h3 {
+    color: #58e1d3;
+    font-family: 'Montserrat', sans-serif;
+}
+
+hr {
+    border: 5px #b5b7bd;
+    border-style: none;
+    border-top-style: dotted;
+    margin: 25px auto;
+    width: 5%;
+}
+
+p {
+    color: #40514e;
+    line-height: 2;
+}
+
+/*** Classes ***/
+.top-container {
+    padding-top: 100px;
+    position: relative;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 300px;
+    bottom: 300px; 
+}
+
+.middle-container {
+}
+
+.intro {
+    margin: auto;
+    width: 40%;
+    text-align: justify;
+}
+
+.profile-img {
+    border-radius: 100%;
+    height: 10%;
+    margin-top: 20px;
+    width: auto;
+}
+
+.skill-row {
+    margin: auto;
+    text-align: left;
+    width: 50%;
+    text-align: justify;
+}
+
+.admin-img {
+    float: left;
+    height: auto;
+    margin-right: 30px;
+    width: 25%;
+}
+
+.it-img {
+    float: right;
+    height: auto;
+    margin-left: 30px;
+    width: 25%;
+}
+
+.contact-me {
+    margin: 40px auto 60px;
+}
+
+.contact-me-description {
+    margin: auto;
+    padding: 20px auto;
+    text-align: justify;
+    width: 40%;
+}
+
+.btn {
+    background-color: #58e1d3;
+    background-image: linear-gradient(to bottom #58e1d3, #63b7af);
+    border-radius: 8px;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.25rem;
+    font-weight: 300;
+    height: auto;
+    margin: 15px auto;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    width: auto;
+}
+
+.btn:hover {
+    background: #30e3cb;
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+}
+
+.bottom-container {
+    background: #63b7af;
+    height: auto;
+    padding: 40px;
+    margin: auto;
+}
+
+.footer-link{
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+.footer {
+    color: #eaf6f6;
+    font-size: .75rem;
+    padding: 20px 0 0 0;
+}
+
+/*** IDs ***/
